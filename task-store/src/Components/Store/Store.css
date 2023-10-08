@@ -1,7 +1,7 @@
 #store {
   height: auto;
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,13 +14,15 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #store-left {
   height: 100%;
   width: 75%;
-  border: 1px solid green;
+  padding: 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px;
+  /* border: 1px solid black; */
 }
 
 #left-1 {
@@ -29,7 +31,7 @@
   /* justify-content: space-between; */
   align-items: center;
   padding: 20px 0 15px 0px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #left-1 > .fa-chevron-left {
@@ -46,7 +48,7 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  border: 1px solid red;
+  /* border: 1px solid black; */
 }
 
 #left-main-img {
@@ -54,13 +56,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #left-main-img > #main-img {
   height: 420px;
   width: 76%;
-  border: 1px solid red;
+  padding: 20px;
+  border-radius: 2px;
+  background-color: rgb(247, 247, 247);
+  /* border: 1px solid black; */
 }
 
 #main-img > img {
@@ -76,13 +81,17 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  border: 1px solid green;
+  /* border: 1px solid black; */
 }
 
 #sub-imgs > #sub-img {
   height: 120px;
   width: 100%;
-  border: 1px solid red;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: rgb(247, 247, 247);
+
+  /* border: 1px solid black; */
 }
 
 #sub-img > img {
@@ -93,12 +102,12 @@
 
 #left-main-desc {
   width: 35%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #left-header {
   padding: 0 0 20px 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #left-header > h2 {
@@ -113,7 +122,7 @@
 }
 
 #left-reviews {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   line-height: 15px;
   padding: 0 0 15px 0;
 }
@@ -132,7 +141,7 @@
 #left-price {
   line-height: 16px;
   padding: 0 0 15px 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #left-price > h4 {
@@ -146,7 +155,7 @@
 }
 
 #left-angle {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 #left-angle > #angle {
@@ -154,7 +163,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 0 18px 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #angle > p {
@@ -168,7 +177,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 110px 0 0;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 #left-angle > #angle > #boxes > div {
@@ -182,7 +191,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 #left-size > p {
@@ -196,7 +205,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 62px 0 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #size-number > div {
@@ -214,14 +223,14 @@
   justify-content: center;
   align-items: center;
   padding: 10px 0 20px 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 #left-3 > #rate {
   width: 97%;
   display: flex;
   justify-content: start;
   align-items: center;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 #rate > p {
@@ -239,7 +248,7 @@
   justify-content: center;
   align-items: center;
   padding: 10px 0;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 #left-4 > button {
@@ -251,17 +260,165 @@
 
 #left-4 > button:first-child {
   font-weight: 500;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #left-4 > button:last-child {
   background-color: black;
   color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #store-right {
   height: 100%;
   width: 23%;
-  border: 1px solid blue;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 15px;
+  /* border: 1px solid black; */
+}
+
+#cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 10px 0;
+  /* border: 1px solid black; */
+}
+
+#cart-header > h2 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+#cart-body {
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  /* border: 1px solid black; */
+}
+
+#cart-body > p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#cart-address {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 10px 0;
+  /* border: 1px solid black; */
+}
+
+#cart-address > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0 0 15px;
+}
+
+#cart-address > div > p {
+  font-size: 15px;
+  padding: 0 0 0 10px;
+}
+
+#cart-order {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+  /* border: 1px solid black; */
+}
+
+#cart-order > button {
+  border: none;
+  background: none;
+  background-color: grey;
+  font-weight: 600;
+  color: white;
+  padding: 5px 14px;
+}
+
+/*--------------------------- RESPONSIVE----------------------------------- */
+
+@media only screen and (max-width: 1095px) {
+  #store-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #store-left {
+    width: 98%;
+  }
+
+  #store-right {
+    width: 98%;
+    margin: 20px 0;
+  }
+
+  #cart-header {
+    padding: 20px 50px 0 50px;
+  }
+
+  #cart-body > p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  #cart-address {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #cart-order > button {
+    padding: 10px 18px;
+  }
+}
+
+@media only screen and (max-width: 824px) {
+  #left-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #left-main-img {
+    width: 90%;
+  }
+
+  #left-main-desc {
+    width: 60%;
+    padding: 20px 0;
+  }
+
+  #left-header > h2 {
+    font-size: 35px;
+  }
+
+  #left-3 > #rate {
+    justify-content: center;
+    padding: 20px 0 0px 0;
+  }
+
+  #left-4 {
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #left-main-desc {
+    width: 80%;
+  }
+
+  #sub-imgs > #sub-img {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 368px) {
+  #left-main-desc {
+    width: 90%;
+  }
 }

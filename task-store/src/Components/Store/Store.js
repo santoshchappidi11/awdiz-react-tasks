@@ -104,23 +104,44 @@ const Store = () => {
             </div>
           </div>
           <div id="left-3">
-           <div id="rate">
-           <p>Rate Product</p>
-            <div>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
+            <div id="rate">
+              <p>Rate Product</p>
+              <div>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
             </div>
-           </div>
           </div>
           <div id="left-4">
             <button>share design</button>
             <button>add to cart</button>
           </div>
         </div>
-        <div id="store-right"></div>
+        <div id="store-right">
+          <div id="cart-header">
+            <h2>CART</h2>
+            <i class="fa-solid fa-bag-shopping fa-xl"></i>
+          </div>
+          <div id="cart-body">
+            <p>What's stopping you, designer?</p>
+          </div>
+          <div id="cart-address">
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Home</p>
+            </div>
+            <div>
+              <i class="fa-regular fa-calendar"></i>
+              <p>Select Date</p>
+            </div>
+          </div>
+          <div id="cart-order">
+            <button>Order now</button>
+          </div>
+        </div>
       </div>
     </div>
   );
